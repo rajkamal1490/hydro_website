@@ -314,6 +314,7 @@ h2.post-title {
 }
 .post-title {
     margin-bottom: 5px
+    text-decoration: center;
 }
 .post-title a {
     color: #303030
@@ -3958,4 +3959,20 @@ video::-webkit-media-controls {
 	.section-title h2:after {
 	    display: none
 	}
+
+    .btn-bs-file{
+    position:relative;
 }
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+}
+
+
